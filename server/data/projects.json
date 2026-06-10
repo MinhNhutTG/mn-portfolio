@@ -1,11 +1,11 @@
 [
   {
     "id": "1",
-    "title": "E-Commerce Platform",
-    "description": "Nền tảng thương mại điện tử full-stack với giỏ hàng, thanh toán online và trang quản trị sản phẩm.",
+    "title": "Chuẩn đoán viêm phổi",
+    "description": "NGHIÊN CỨU VÀ TRIỂN KHAI MÔ HÌNH CHẨN ĐOÁN VIÊM PHỔI BẰNG TRÍ TUỆ NHÂN TẠO",
     "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-    "tags": ["React", "Node.js", "MongoDB", "Stripe"],
-    "link": "https://github.com",
+    "tags": ["Python", "Flask", "ResNet50"],
+    "link": "https://github.com/MinhNhutTG/ChanDoanViemPhoi",
     "featured": true
   },
   {
