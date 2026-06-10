@@ -23,7 +23,7 @@ npm run dev      # hoặc: npm start
 Server chạy tại `http://localhost:5000`.
 
 Cấu hình trong `server/.env` (đã tạo sẵn từ `.env.example`):
-- `ADMIN_PASSWORD` — mật khẩu đăng nhập trang quản trị (mặc định: `admin123`)
+- `ADMIN_PASSWORD` — mật khẩu đăng nhập trang quản trị (mặc định: ``)
 - `JWT_SECRET` — khóa bí mật để ký token đăng nhập
 - `PORT` — cổng chạy server (mặc định: 5000)
 
