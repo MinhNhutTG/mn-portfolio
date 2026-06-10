@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "E-Commerce Platform",
+    "description": "Nền tảng thương mại điện tử full-stack với giỏ hàng, thanh toán online và trang quản trị sản phẩm.",
+    "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+    "tags": ["React", "Node.js", "MongoDB", "Stripe"],
+    "link": "https://github.com",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Task Management App",
+    "description": "Ứng dụng quản lý công việc theo nhóm với kéo-thả Kanban board và realtime collaboration.",
+    "image": "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
+    "tags": ["React", "Express", "Socket.io"],
+    "link": "https://github.com",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "title": "AI Chatbot Assistant",
+    "description": "Chatbot tư vấn tự động tích hợp AI, hỗ trợ trả lời câu hỏi khách hàng 24/7.",
+    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&q=80",
+    "tags": ["Python", "FastAPI", "OpenAI API"],
+    "link": "https://github.com",
+    "featured": false
+  }
+]

@@ -1,0 +1,51 @@
+.bg-fx {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bg-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.35;
+}
+
+.bg-orb-gold {
+  width: 480px;
+  height: 480px;
+  background: var(--gold);
+  top: -120px;
+  right: -120px;
+  animation: float-orb 18s ease-in-out infinite;
+}
+
+.bg-orb-purple {
+  width: 520px;
+  height: 520px;
+  background: var(--purple);
+  bottom: -160px;
+  left: -160px;
+  animation: float-orb 22s ease-in-out infinite reverse;
+}
+
+.bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(212, 175, 55, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 175, 55, 0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse at center, black 0%, transparent 75%);
+}
+
+@keyframes float-orb {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(40px, 60px) scale(1.1);
+  }
+}
